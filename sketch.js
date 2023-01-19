@@ -6,5 +6,6 @@ function setup () {
 }
 
 function draw () {
+	fill(random(255), random(255), 100);
 	ellipse(random(width), random(height), 100, 100);
 }
